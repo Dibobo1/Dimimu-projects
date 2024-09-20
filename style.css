@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     color: #333;
-    line-height: 1.6;
+    /* line-height: 1.6; */
     overflow-x: hidden;
 }
 
@@ -19,7 +19,7 @@ body {
 .header {
     background: linear-gradient(90deg, #00c6ff, #0072ff, #8a2be2);
     color: white;
-    padding: 20px;
+    /* padding: 15px; */
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -272,7 +272,7 @@ body {
 } */
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
     .body {
         overflow-x: hidden;
@@ -310,3 +310,30 @@ body {
         flex-direction: column;
     }
     }
+
+    @media (max-width: 600px) {
+        .header {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .section {
+            width: px;
+            overflow-x: hidden;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .progress .paragraph{
+            width: 20rem;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .forms-grid {
+            text-align: center;
+            width: 20rem;
+        }
+    }
+
