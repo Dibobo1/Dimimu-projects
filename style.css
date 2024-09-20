@@ -326,14 +326,14 @@ body {
 
     @media (max-width: 600px) {
         .progress .paragraph{
-            width: 20rem;
+            width: 10rem;
         }
     }
 
     @media (max-width: 600px) {
         .forms-grid {
             text-align: center;
-            width: 10rem;
+            width: 10px;
         }
     }
 
